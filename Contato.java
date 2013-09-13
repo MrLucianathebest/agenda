@@ -1,5 +1,4 @@
-
-public class Pessoa {
+public class Contato {
 
     // Atributos
     private String nome;
@@ -15,15 +14,15 @@ public class Pessoa {
     private Object foto;
 
     //Construtores    
-    public Pessoa() {
+    public Contato() {
         this.nome = "-";
     }
 
-    public Pessoa(String nome) {
+    public Contato(String nome) {
         this.nome = nome;
     }
 
-    public Pessoa(String nome, String telefone) {
+    public Contato(String nome, String telefone) {
         this.nome = nome;
         this.telefone = telefone;
     }
