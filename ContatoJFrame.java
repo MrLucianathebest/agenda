@@ -18,6 +18,14 @@ import javax.swing.JOptionPane;
  */
 public class ContatoJFrame extends javax.swing.JFrame {
     
+     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonGravar;
+    private javax.swing.JLabel jLabelNome;
+    private javax.swing.JLabel jLabelTelefone;
+    private javax.swing.JTextField jTextFieldNome;
+    private javax.swing.JTextField jTextFieldTelefone;
+    // End of variables declaration//GEN-END:variables
+    
     private Agenda minhaAgenda;
 
     /** Creates new form ContatoJFrame */
@@ -154,11 +162,4 @@ private void jTextFieldNomeActionPerformed(java.awt.event.ActionEvent evt) {//GE
             }
         });
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonGravar;
-    private javax.swing.JLabel jLabelNome;
-    private javax.swing.JLabel jLabelTelefone;
-    private javax.swing.JTextField jTextFieldNome;
-    private javax.swing.JTextField jTextFieldTelefone;
-    // End of variables declaration//GEN-END:variables
 }
