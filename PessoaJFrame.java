@@ -4,7 +4,7 @@
  */
 
 /*
- * ContatoJFrame.java
+ * PessoaJFrame.java
  *
  * Created on 13/09/2013, 14:53:45
  */
@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  *
  * @author alunos
  */
-public class ContatoJFrame extends javax.swing.JFrame {
+public class PessoaJFrame extends javax.swing.JFrame {
     
      // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonGravar;
@@ -28,8 +28,8 @@ public class ContatoJFrame extends javax.swing.JFrame {
     
     private Agenda minhaAgenda;
 
-    /** Creates new form ContatoJFrame */
-    public ContatoJFrame() {
+    /** Creates new form PessoaJFrame */
+    public PessoaJFrame() {
         initComponents();
         minhaAgenda = new Agenda();
     }
@@ -113,9 +113,9 @@ public class ContatoJFrame extends javax.swing.JFrame {
 
 private void jButtonGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGravarActionPerformed
 // TODO add your handling code here:
-    Contato novoContato = new Contato(jTextFieldTelefone.getText());
-    novoContato.setTelefone(jTextFieldTelefone.getText());
-    String mensagem = minhaAgenda.adicionarContato(novoContato);
+    Pessoa novaPessoa = new Pessoa(jTextFieldTelefone.getText());
+    novaPessoa.setTelefone(jTextFieldTelefone.getText());
+    String mensagem = minhaAgenda.adicionarPessoa(novaPessoa);
     JOptionPane.showMessageDialog(null, mensagem);
 }//GEN-LAST:event_jButtonGravarActionPerformed
 
