@@ -12,13 +12,21 @@ public class PessoaFisica extends Pessoa{
     private Object foto;
 
     //Construtores    
+    public PessoaFisica(String sobrenome, String cpf, String empresa, String cargo, String aniversario, Object foto) {
+		this.sobrenome = sobrenome;
+		this.cpf = cpf;
+		this.empresa = empresa;
+		this.cargo = cargo;
+		this.aniversario = aniversario;
+		this.foto = foto;
+	}
+    
     public PessoaFisica(String nome, String cpf) {
         super.nome = nome;
-        this.cpf = cpf;
-        
+        this.cpf = cpf;  
     }
 
-    public PessoaFisica(String nome,String cpf, String telefone) {
+	public PessoaFisica(String nome,String cpf, String telefone) {
     	super.nome = nome;
         super.telefone = telefone;
         this.cpf = cpf;
