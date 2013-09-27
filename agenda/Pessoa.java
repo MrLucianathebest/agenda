@@ -7,7 +7,19 @@ public class Pessoa {
 	protected String email;
 	protected String site;
 	
+	public Pessoa(){
+		
+	}
 	
+	public Pessoa(String nome, String telefone, String endereco, String email,
+			String site) {
+		super();
+		this.nome = nome;
+		this.telefone = telefone;
+		this.endereco = endereco;
+		this.email = email;
+		this.site = site;
+	}
 	
 	public String getNome() {
 		return nome;
