@@ -9,16 +9,15 @@ public class PessoaJuridica extends Pessoa{
     
     //Construtores    
     public PessoaJuridica() {
-        super.nome = "-";
     }
-
-    public PessoaJuridica(String nome) {
+    
+    public PessoaJuridica(String razaoSocial, String cnpj) {
+		this.razaoSocial = razaoSocial;
+		this.cnpj = cnpj;
+	}
+    
+	public PessoaJuridica(String nome) {
         super.nome = nome;
-    }
-
-    public PessoaJuridica(String nome, String telefone) {
-        super.nome = nome;
-        super.telefone = telefone;
     }
 
     // Métodos
