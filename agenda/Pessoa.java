@@ -11,9 +11,7 @@ public class Pessoa {
 		
 	}
 	
-	public Pessoa(String nome, String telefone, String endereco, String email,
-			String site) {
-		super();
+	public Pessoa(String nome, String telefone, String endereco, String email,String site) {
 		this.nome = nome;
 		this.telefone = telefone;
 		this.endereco = endereco;
