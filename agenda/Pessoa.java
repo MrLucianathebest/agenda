@@ -1,11 +1,11 @@
 package agenda;
 
 public class Pessoa {
-	private String nome;
-	private String telefone;
-	private String endereco;
-	private String email;
-	private String site;
+	protected String nome;
+	protected String telefone;
+	protected String endereco;
+	protected String email;
+	protected String site;
 	
 	
 	
